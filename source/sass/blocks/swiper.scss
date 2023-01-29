@@ -1,0 +1,9 @@
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: white;
+
+  &:hover {
+    color: $color-gold;
+  }
+}
+

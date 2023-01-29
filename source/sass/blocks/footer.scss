@@ -1,0 +1,24 @@
+.footer {
+  padding: 40px 0 526px;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__socials a {
+  color: black;
+  border-color: black;
+}
+
+@media (max-width: $max-width) {
+  .footer__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+}

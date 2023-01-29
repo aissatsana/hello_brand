@@ -1,0 +1,37 @@
+.contacts {
+  padding-top: 101px;
+  font-family: $font-poppins;
+}
+
+.contacts__wrapper {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.contacts__canvas {
+  grid-column: 1 / 3;
+  width: 100%;
+  height: 547px;
+  background-color: grey;
+}
+
+.contacts__title {
+  font-size: 48px;
+  line-height: 88px;
+  margin: 0 0 35px;
+}
+
+.contacts__list {
+  margin: 0;
+}
+
+@media (max-width: $max-width) {
+  .contacts {
+    padding-top: 40px;
+  }
+
+  .contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

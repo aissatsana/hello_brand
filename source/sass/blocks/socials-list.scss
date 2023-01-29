@@ -1,0 +1,30 @@
+.socials-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.socials-list__item {
+  &:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+.socials-list__link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid white;
+
+  &:hover {
+    color: $color-gold;
+    border-color: $color-gold;
+  }
+}

@@ -1,0 +1,39 @@
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+.container {
+  width: 1168px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: $font-poppins;
+}
+
+.page__wrapper {
+  background: url('../../img/promo@2x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: $max-width) {
+  .container {
+    width: auto;
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,38 @@
+.site-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.site-list__item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.site-list__link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+
+  &:hover {
+    color: $color-gold;
+  }
+}
+
+@media (max-width: $max-width) {
+  .site-list {
+    align-items: stretch;
+  }
+
+  .site-list__item {
+    padding: 10px 0 10px 50px;
+    border-bottom: 1px solid $color-grey;
+  }
+
+  .site-list__item:not(:last-child) {
+    margin-right: 0;
+  }
+}

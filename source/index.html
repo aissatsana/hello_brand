@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tzeezotje</title>
+    <link rel="preload" href="fonts/Poppins-400.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Poppins-500.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Poppins-600.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Poppins-700.woff2" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  </head>
+  <body class="page">
+    <div class="page__wrapper">
+      <header class="page__header header">
+        <div class="container">
+          <nav class="header__nav header__nav--nojs">
+            <a class="header__logo">
+              <picture>
+                <source type="image/webp" srcset="img/logo.webp 1x, img/logo@2x.webp 2x" width="269" height="55">
+                <img class="header__img" src="img/logo.png" srcset="logo@2x.png" width="269" height="55" alt="Logo">
+              </picture>
+            </a>
+            <ul class="header__list site-list">
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  À la carte
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  Wijnkaart
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  Lunchmenu
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <a class="header__link" href="tel:3292825725">
+              <svg width="24" height="24">
+                <use xlink:href="img/sprite.svg#phone"></use>
+              </svg>
+              <span>+32 9 282 57 25</span>
+            </a>
+            <button class="header__toggle" type="button">
+              <span class="visually-hidden">Открыть меню</span>
+            </button>
+          </nav>
+        </div>
+      </header>
+      <section class="page__promo promo">
+       <div class="container">
+         <div class="promo__hours">
+           OPEN EVERYDAY 6AM - 9PM
+         </div>
+         <h2 class="promo__slogan">
+           A bad day with lunch is better than a good day without it.
+         </h2>
+         <div class="promo__footer">
+           <button class="promo__button button">
+             Reserve a table
+           </button>
+           <ul class="promo__socials socials-list">
+             <li class="socials-list__item">
+               <a class="socials-list__link" href="#">
+                 <span>Fb</span>
+               </a>
+             </li>
+             <li class="socials-list__item">
+               <a class="socials-list__link" href="#">
+                 <span>Ig</span>
+               </a>
+             </li>
+             <li class="socials-list__item">
+               <a class="socials-list__link" href="#">
+                 <span>Tw</span>
+               </a>
+             </li>
+             <li class="socials-list__item">
+               <a class="socials-list__link" href="#">
+                 <span>Yt</span>
+               </a>
+             </li>
+           </ul>
+         </div>
+       </div>
+         </section>
+    </div>
+
+    <main class="main">
+      <h1 class="visually-hidden">Tzeezotje</h1>
+
+      <section class="week-menu">
+        <h2 class="visually-hidden">Week menu</h2>
+        <div class="container week-menu__wrapper">
+          <ul class="week-menu__list menu-list">
+            <li class="menu-list__item">
+              <h3 class="menu-list__title">
+                Woensdag 12/01
+              </h3>
+              <div class="menu-list__text">
+                <span class="menu-list__dish menu-list__dish--first">Salade met Serrano</span>
+                <span class="menu-list__dish menu-list__dish--second">Steak Tartaar</span>
+              </div>
+            </li>
+            <li class="menu-list__item">
+              <h3 class="menu-list__title">
+                Donderdag 13/01
+              </h3>
+              <div class="menu-list__text">
+                <span class="menu-list__dish menu-list__dish--first">Toast Roquefort</span>
+                <span class="menu-list__dish menu-list__dish--second">Penne met Kip en Prei</span>
+              </div>
+            </li>
+            <li class="menu-list__item">
+              <h3 class="menu-list__title">
+                Vrijdag 14/01
+              </h3>
+              <div class="menu-list__text">
+                <span class="menu-list__dish menu-list__dish--first">Verrassing van de Chef</span>
+                <span class="menu-list__dish menu-list__dish--second">Penne met Kip en Prei</span>
+              </div>
+            </li>
+            <li class="menu-list__item">
+              <h3 class="menu-list__title">
+                Vrijdag 15/01
+              </h3>
+              <div class="menu-list__text">
+                <span class="menu-list__dish menu-list__dish--first">Verrassing van de Chef</span>
+                <span class="menu-list__dish menu-list__dish--second">Penne met Kip en Prei</span>
+              </div>
+            </li>
+            <li class="menu-list__item">
+              <h3 class="menu-list__title">
+                Vrijdag 16/01
+              </h3>
+              <div class="menu-list__text">
+                <span class="menu-list__dish menu-list__dish--first">Verrassing van de Chef</span>
+                <span class="menu-list__dish menu-list__dish--second">Penne met Kip en Prei</span>
+              </div>
+            </li>
+          </ul>
+          <picture>
+            <source type="image/webp" srcset="img/interior1.webp 1x, img/interior1@2x.webp 2x" width="323" height="486">
+            <img class="week-menu__img week-menu__img--down" src="img/interior1.jpg" srcset="img/interior1@2x.jpg" width="323" height="486" alt="Interior">
+          </picture>
+          <picture>
+            <source type="image/webp" srcset="img/interior2.webp 1x, img/interior2@2x.webp 2x" width="323" height="486">
+            <img class="week-menu__img" src="img/interior2.jpg" srcset="img/interior2@2x.jpg" width="323" height="486" alt="Interior">
+          </picture>
+        </div>
+      </section>
+
+      <section class="quotes">
+        <div class="container">
+          <div class="swiper">
+            <ul class="quotes__list swiper-wrapper">
+              <li class="quotes__item swiper-slide">
+                <div class="quotes__wrapper">
+                  <h2 class="quotes__title">
+                    Goede service, lekker eten, toffe ambiance
+                  </h2>
+                  <div class="quotes__text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                  </div>
+                  <div class="quotes__author">
+                    ALAIN HEYNDRICKX
+                  </div>
+                </div>
+              </li>
+              <li class="quotes__item swiper-slide">
+                <div class="quotes__wrapper">
+                  <h2 class="quotes__title">
+                    Goede service, lekker eten, toffe ambiance
+                  </h2>
+                  <div class="quotes__text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                  </div>
+                  <div class="quotes__author">
+                    HEYNDRICKX ALAIN
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <div class="container">
+          <h2 class="visually-hidden">Our advantages</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <div class="advantages__wrapper">
+                <h3 class="advantages__title">
+                  LEKKER ETEN
+                </h3>
+                <div class="advantages__text">
+                  Eten gaat niet over indruk maken op mensen. Het gaat erom dat ze zich op hun gemak voelen. Dat is onze filosofie, goed eten in een goede sfeer.
+                </div>
+              </div>
+              <picture>
+                <source type="image/webp" srcset="img/advantage1.webp 1x, img/advantage1@2x.webp 2x" width="670" height="560">
+                <img class="advantages__img" src="img/advantage1.jpg" srcset="img/advantage1@2x.jpg 2x" width="670" height="560" alt="steaks">
+              </picture>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__wrapper">
+                <h3 class="advantages__title">
+                  TOFFE AMBIANCE
+                </h3>
+                <div class="advantages__text">
+                  Het creëren van de juiste sfeer is zeer belangrijk voor ons. We nemen onze tijd om te zorgen dat alle elementen bijdragen aan de juiste setting.
+                </div>
+              </div>
+              <picture>
+                <source type="image/webp" srcset="img/advantage2.webp 1x, img/advantage2@2x.webp 2x" width="670" height="560">
+                <img class="advantages__img" src="img/advantage2.jpg" srcset="img/advantage2@2x.jpg 2x" width="670" height="560" alt="taps">
+              </picture>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__wrapper">
+                <h3 class="advantages__title">
+                  LEKKERE COCKTAILS
+                </h3>
+                <div class="advantages__text">
+                  Ons doel is simpel: een gastvrije plek bieden waar u kunt genieten van een onvergetelijke cocktail, een goed gesprek en lekker eten.
+                </div>
+              </div>
+              <picture>
+                <source type="image/webp" srcset="img/advantage3.webp 1x, img/advantage3@2x.webp 2x" width="670" height="560">
+                <img class="advantages__img" src="img/advantage3.jpg" srcset="img/advantage3@2x.jpg 2x" width="670" height="560" alt="coctails">
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="photos">
+        <div class="container">
+        <div class="swiper">
+          <h2 class="photos__title">
+            Sfeerfoto's
+          </h2>
+          <div class="photos__text">
+            De beste manier om de sfeer te ervaren is eens langskomen.
+          In tussentijd hebben we hier alvast wat foto’s voor je klaar.
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <ul class="photos__list swiper-wrapper">
+            <li class="photos__item swiper-slide">
+              <picture>
+                <source type="image/webp" srcset="img/photo1.webp 1x, img/photo1@2x.webp 2x" width="970" height="646">
+                <img class="photos__img" src="img/photo1.jpg" srcset="img/photo1@2x.jpg 2x" width="970" height="646" alt="First photo">
+              </picture>
+            </li>
+            <li class="photos__item swiper-slide">
+              <picture>
+                <source type="image/webp" srcset="img/photo2.webp 1x, img/photo2@2x.webp 2x" width="970" height="646">
+                <img class="photos__img" src="img/photo2.jpg" srcset="img/photo2@2x.jpg 2x" width="970" height="646" alt="Second photo">
+              </picture>
+            </li>
+            <li class="photos__item swiper-slide">
+              <picture>
+                <source type="image/webp" srcset="img/photo3.webp 1x, img/photo3@2x.webp 2x" width="970" height="646">
+                <img class="photos__img" src="img/photo3.jpg" srcset="img/photo3@2x.jpg 2x" width="970" height="646" alt="Third photo">
+              </picture>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container contacts__wrapper">
+          <div class="contacts__info">
+            <h2 class="contacts__title">
+              Contacts
+            </h2>
+            <ul class="contacts__list contacts-list">
+              <li class="contacts-list__item  contacts-list__item--phone">
+                <h3 class="contacts-list__title">Phone Number</h3>
+                <div class="contacts-list__description">+32 9 282 57 25</div>
+              </li>
+              <li class="contacts-list__item contacts-list__item--email">
+                <h3 class="contacts-list__title">Email</h3>
+                <div class="contacts-list__description">info@email.com</div>
+              </li>
+              <li class="contacts-list__item contacts-list__item--hours">
+                <h3 class="contacts-list__title">Opening Hours</h3>
+                <div class="contacts-list__description">Everyday from 6 AM - 9 PM</div>
+              </li>
+              <li class="contacts-list__item contacts-list__item--address">
+                <h3 class="contacts-list__title">Map Street</h3>
+                <div class="contacts-list__description">Jl. Raya Surabaya 2787</div>
+              </li>
+            </ul>
+          </div>
+          <form class="contacts__form form" method="post" id="ajax_form" action="">
+            <h3 class="form__title">
+              have any questions?
+            </h3>
+            <div class="form__field">
+              <label class="form__label" for="name">
+                Name
+              </label>
+              <input class="form__input" type="text" name="name" id="name" placeholder="Input your name" required>
+            </div>
+            <div class="form__field">
+              <label class="form__label" for="email">
+                Email
+              </label>
+              <input class="form__input" type="text" name="email" id="email" placeholder="Input your email" required>
+            </div>
+            <div class="form__field form__field--textarea">
+              <label class="form__label" for="additional">
+                Speciale Request
+              </label>
+              <textarea class="form__input form__input--textarea" name="additional" id="additional" placeholder="Input your special request"></textarea>
+            </div>
+            <button class="form__button button" id="form-button" type="submit">Send</button>
+          </form>
+          <div class="contacts__canvas"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__nav">
+          <a class="footer__logo">
+            <picture>
+              <source type="image/webp" srcset="img/logo-color.webp 1x, img/logo-color@2x.webp 2x" width="269" height="55">
+              <img class="footer__logo-img" src="img/logo-color.png" srcset="img/logo-color@2x.png 2x" width="269" height="55" alt="Logo">
+            </picture>
+          </a>
+          <ul class="footer__socials socials-list">
+            <li class="socials-list__item">
+              <a class="socials-list__link" href="#">
+                Fb
+              </a>
+            </li>
+            <li class="socials-list__item">
+              <a class="socials-list__link" href="#">
+                Ig
+              </a>
+            </li>
+            <li class="socials-list__item">
+              <a class="socials-list__link" href="#">
+                Tw
+              </a>
+            </li>
+            <li class="socials-list__item">
+              <a class="socials-list__link" href="#">
+                Yt
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <div class="modal modal--close">
+      <div class="modal__overlay" data-close-modal></div>
+      <div class="modal__content">
+        <form class="modal__form form form--modal" method="" action="">
+          <h3 class="form__title form__title--modal">
+            Reservation a table
+          </h3>
+          <div class="form__field">
+            <label class="form__label" for="reserv-name">
+              Name
+            </label>
+            <input class="form__input" type="text" name="reserv-name" id="reserv-name" placeholder="Input your name" required>
+          </div>
+          <div class="form__field">
+            <label class="form__label" for="reserv-email">
+              Email
+            </label>
+            <input class="form__input" type="email" name="reserv-email" id="reserv-email" placeholder="Input your email" required>
+          </div>
+          <div class="form__field form__field--textarea">
+            <label class="form__label" for="reserv-additional">
+              Speciale Request
+            </label>
+            <textarea class="form__input form__input--textarea" name="reserv-additional" id="reserv-additional" placeholder="Input your special request"></textarea>
+          </div>
+          <button class="form__button form__button--modal button" type="submit">Send</button>
+        </form>
+        <button class="modal__button-close">
+          <span class="visually-hidden">Закрыть окно</span>
+        </button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js" type="module"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
