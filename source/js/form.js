@@ -1,7 +1,7 @@
 document.querySelector("#ajax_form").addEventListener("submit", function(e) {
   e.preventDefault();
   var formData = new FormData(this);
-  fetch(url, {
+  fetch('send.php', {
     method: 'POST',
     body:  formData,
   })

@@ -1,1 +1,1 @@
-document.querySelector("#ajax_form").addEventListener("submit",(function(e){e.preventDefault();var t=new FormData(this);fetch(url,{method:"POST",body:t}).then((e=>e.json())).then((e=>{console.log("Результат",e)}))}));
+document.querySelector("#ajax_form").addEventListener("submit",(function(e){e.preventDefault();var t=new FormData(this);fetch("send.php",{method:"POST",body:t}).then((e=>e.json())).then((e=>{console.log("Результат",e)}))}));

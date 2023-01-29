@@ -24,17 +24,17 @@
   }
 
   &--phone::before {
-    background-image: url('../../img/phone.svg');
+    background-image: url('../img/phone.svg');
   }
 
   &--email::before {
-    background-image: url('../../img/mail.svg');
+    background-image: url('../img/mail.svg');
   }
   &--hours::before {
-    background-image: url('../../img/clock.svg');
+    background-image: url('../img/clock.svg');
   }
   &--address::before {
-    background-image: url('../../img/map.svg');
+    background-image: url('../img/map.svg');
   }
 }
 
